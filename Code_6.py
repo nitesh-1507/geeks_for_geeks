@@ -33,3 +33,21 @@ for i in set(stored_string):
     character_dict[i] = len([j for j, x in enumerate(stored_string) if x == i])
 
 print(character_dict)
+
+# Inbuilt functions to manipulate strings
+
+print(stored_string.upper())
+print(stored_string.lower())
+print(stored_string.islower())
+print(stored_string.isupper())
+print(len(stored_string))
+print(stored_string.isalpha())
+print(stored_string.isalnum())
+print('-'.join(stored_string))
+print('*'.join(stored_string))
+print(stored_string.find('o'))
+print(stored_string.capitalize())
+print(stored_string.index('e'))
+print(stored_string.endswith('o'))
+print(stored_string.startswith('h'))
+print(stored_string.count('o'))
